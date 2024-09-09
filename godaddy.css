@@ -1,0 +1,167 @@
+.SK{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+    padding: 15px;
+}
+.container{
+    background-color: rgb(45, 114, 114);
+    text-align: center;
+    padding: 40px;
+}
+.para1{
+color: white;
+font-size: 20px;
+}
+.h1{
+    color: antiquewhite;
+    font-size: 50px;
+}
+.container2{
+    text-align: center;
+}
+.h2{
+    color: black;
+    font-size: 50px;
+}
+.para3{
+    color: white;
+font-size: 20px;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+}
+.para4{
+    font-size: 20px;
+}
+
+.content1{
+    height:300px;
+    float: left;
+    margin-right:17px;
+    padding:25px;
+}
+.content2{
+    height:300px;
+    float: left;
+    margin-right:17px;
+    padding:25px;
+}
+.content3{
+    height:300px;
+    float: left;
+    margin-right:17px;
+    padding:25px;
+}
+.av{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    border:1px solid rgb(219, 216, 216);
+    grid-template-rows: 300px ;
+
+}
+.av div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(219, 216, 216);
+}
+.container3{
+    text-align: center;
+}
+.image1{
+    width: 300px;
+    height: 400px;
+}
+.bk{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container4{
+    text-align: center;
+}
+.bk2{
+    display: flex;
+    justify-content:space-around;
+    padding: 60px;
+}
+.container5{
+    align-items: center;
+    background-color: black;
+    padding: 50px;
+}
+.bg{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.button{
+    background-color: rgb(41, 40, 40);
+    color: white;
+    margin-left:110px ;
+    font-size: 18px;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    width: 100px;
+
+}
+.disc{
+    font-size:20px ;
+    color: black;
+}
+.footer{
+    text-align: left;
+    padding-left: 10px;
+
+}
+.footer1{
+    background-color: black;
+    height: 50px;
+}
+.footer2{
+    background-color: rgb(2, 0, 0);
+    height: 600px;
+    color: white;
+    
+}
+.sp{
+    display: flex;
+    justify-content: space-evenly;
+color: whitesmoke;
+    
+
+}
+.h3{
+    text-decoration: underline;
+    padding: 20px;
+   
+}
+.footer3{
+    display: flex; 
+    justify-content: space-around;
+}
+a:hover{
+    color: wheat;
+}
+.containersk{
+    background-color: black;
+}
+.butn{
+    position: fixed ;
+    bottom: 0;
+    right:0;
+    margin: 25px;
+    z-index:5 !important;
+    border-radius:15px;
+    border:3px solid rgb(15, 15, 109);
+    color: black;
+    background-color: white;
+}
+.bn{
+    padding: 8px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+}
